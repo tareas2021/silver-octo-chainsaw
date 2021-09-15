@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #ffffff;
+background: -webkit-linear-gradient(to right, hsla(207, 71%, 12%, 0.603), hsla(266, 76%, 41%, 0.623)), url(../img/pc.jpg); 
+background: linear-gradient(to right, hsla(182, 90%, 19%, 0.603), hsla(336, 93%, 16%, 0.623)), url(../img/pc.jpg); 
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: rgb(194, 232, 255);
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300px;
+    color: rgb(255, 255, 255);
+}
+
+
+.contenedor-Inicio{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imagen-Inicio{
+    width: 30%;
+}
+
+.Inicio .contenido-textos{
+    width: 60%;
+}
+
+.contenido-textos h3{
+ margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display:  inline-block;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 5);
+    margin-right: 5px;
+
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.vidio{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
